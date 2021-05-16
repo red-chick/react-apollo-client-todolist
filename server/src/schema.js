@@ -33,7 +33,7 @@ const RootQuery = new GraphQLObjectType({
           .then((res) => res.data);
       },
     },
-    todolist: {
+    todoList: {
       type: new GraphQLList(TodoType),
       resolve(parentValue, args) {
         return axios.get(`${API_HOSTNAME}/todolist`).then((res) => res.data);
