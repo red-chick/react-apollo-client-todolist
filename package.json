@@ -1,0 +1,7 @@
+{
+  "name": "react-apollo-client-todolist",
+  "version": "1.0.0",
+  "repository": "https://github.com/red-chick/react-apollo-client-todolist.git",
+  "author": "seungyoub <shas15@kakao.com>",
+  "private": true
+}
